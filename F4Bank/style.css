@@ -60,22 +60,3 @@ a {
     box-shadow: 1px 1px 1px 1px lightslategray;
     background-color: rgb(233, 233, 0);
 }
-
-body {
-    background-color: lightgray;
-}
-
-.imagem-de-fundo {
-    display: grid;
-    width: 100%;
-    justify-content: center;
-    margin-left: 20em;
-}
-
-.texto-body {
-    text-align: initial;
-    font-size: 2em;
-    justify-content: center;
-    background-color: orange;
-    margin-right: 30em;
-}
