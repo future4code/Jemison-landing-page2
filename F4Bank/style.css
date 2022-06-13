@@ -202,11 +202,3 @@ ul {
     width: 100%;
     background-color: var(--overlay-color);
 }
-
-
-/* Form */
-
-.section-a-form {
-    display: grid;
-    grid-template-columns: repeat(2, 300px);
-}
