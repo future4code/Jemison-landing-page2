@@ -147,9 +147,13 @@ img {
     margin: 1rem 0;
 }
 
+img {
+    width: 80%;
+}
+
 .section-b {
     position: relative;
-    background: url('./img/woman-using-mobile-phone-shopping-online-pay-by-credit-ca.jpg') no-repeat bottom center/cover;
+    background: url('./imagem/img-body/11110.jpg') no-repeat bottom center/cover;
     height: 600px;
     background-size: 100%;
     background-position: center;
@@ -184,17 +188,17 @@ img {
 
 .btn {
     display: inline-block;
-    background-color: var(--primary-color);
+    background-color: #f68247;
     color: #fff;
-    padding: 0.8rem 1.5rem;
+    padding: 1rem 5rem;
     border: none;
     cursor: pointer;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     border-radius: 30px;
 }
 
 .btn:hover {
-    background-color: var(--secondary-color);
+    /* background-color: var(--secondary-color); */
 }
 
 .overlay {
