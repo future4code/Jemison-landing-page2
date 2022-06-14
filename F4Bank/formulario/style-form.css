@@ -6,7 +6,11 @@
   box-sizing: border-box;
   font-family: 'Inter', 'sans-serif';
 }
-
+ main {
+    justify-content: center;
+    align-items: center;
+ }
+ 
 body {
     display: flex;
     width: 100%;
@@ -21,6 +25,7 @@ body {
     width: 80%;
     height: 80vh;
     box-shadow: 5px 5px 10px rgba(0,0,0, 0.212);
+    
 }
 
 .form-image {
@@ -32,7 +37,7 @@ body {
 }
 
 .form-image img {
-    width: 31rem;   
+    width: 31rem;  
 }
 
 .form {
@@ -64,8 +69,9 @@ body {
 
 .title {
     display: flex;
-    margin-top: 5rem;
+    margin-top: 5.6rem;
     margin-right: 5rem;
+    font-size: 0.8rem;
     justify-content: space-between;
 }
 
@@ -75,6 +81,7 @@ body {
     justify-content: space-between;
     padding: 1rem 0;
     flex-wrap: wrap;
+    font-size: 1.2rem;
 }
 
 .input-box {
@@ -97,7 +104,6 @@ body {
 
 button {
     width: 50%;
-    margin-top: 2.5rem;
     border: none;
     padding: 0.62rem;
     border-radius: 5px;
