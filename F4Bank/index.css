@@ -16,7 +16,7 @@ nav {
     background-color: #f2f2f2;
     width: 100%;
     align-items: center;
-    box-shadow: 1px 1px 1px lightslategray;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.445);
 }
 
 .menuheader {
@@ -55,4 +55,39 @@ a {
 .botaoinicial:hover {
     box-shadow: 1px 1px 1px 1px lightslategray;;
     background-color: rgb(233, 233, 0);
+}
+
+footer{
+    display:flex;
+    justify-content: space-between;
+    background-color: #FF914D;
+    height: 200px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.iconesredessociais{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+.lojaapp{
+    width: 150px;
+    height: 50px;
+}
+
+#lojaappmargen{
+    margin-right: 60px;
+}
+
+.redessociais{
+    margin-bottom: 100px;
+}
+
+.endereço{
+    display: flex;
+    width: 100%;
+    margin: 0px 0px 10px 10px;
+    font-weight: bold ;
 }
