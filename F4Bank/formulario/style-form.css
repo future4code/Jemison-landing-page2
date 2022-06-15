@@ -121,6 +121,10 @@ button:hover {
     background-color: #f3a57e;
 }
 
+#checkbox {
+    margin: 0.5rem;
+}
+
 @media screen and (max-width:1270px) {
     .form-image {
         display: none;
