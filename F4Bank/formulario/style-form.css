@@ -38,6 +38,7 @@ body {
 }
 
 .form-image img {
+    border-radius: 50%;
     width: 31rem;
 }
 
@@ -70,14 +71,14 @@ body {
 
 .title {
     display: flex;
-    margin-top: 5.8rem;
+    margin-top: 15.8rem;
     margin-right: 5rem;
     font-size: 0.8rem;
     justify-content: space-between;
 }
 
 .input-group {
-    display: flex;
+    display: grid;
     margin-top: 5rem;
     justify-content: space-between;
     padding: 1rem 0;
@@ -125,7 +126,7 @@ button:hover {
     margin: 0.5rem;
 }
 
-@media screen and (max-width:1270px) {
+@media screen and (max-width:670px) {
     .form-image {
         display: none;
     }
@@ -141,21 +142,18 @@ button:hover {
 
     .title {
         margin-top: 1.8rem;
+        display: none;
     }
 }
 
-@media screen and (max-width: 1060px) {
+@media screen and (max-width: 600px) {
     .container {
         width: 90%;
         height: auto;
     }
 
     .input-group {
-        flex-direction: column;
-        overflow-y: scroll;
-        flex-wrap: nowrap;
-        max-height: 10rem;
-        padding-right: 5rem;
-        margin: 2rem;
+        font-size: 12px;
+        margin-bottom: -90px;
     }
 }

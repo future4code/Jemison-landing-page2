@@ -93,34 +93,34 @@ ul {
     list-style: none;
 }
 
-
-/* .container img {
-    display: inline;
-    width: 10%;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-} */
-
-.container {
-    max-width: 1100px;
+/* .container {
+    min-width: 1100px;
     margin: auto;
     overflow: hidden;
     padding: 0 2rem;
-}
+} */
 
+/* --------------------------------------------Test */
+/* .container {
+    min-width: 376px;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 2rem;
+} */
+/* -------------------------------- */
 .section-a {
     margin: 2rem 0;
 }
 
-.section-a .container {
+/* .section-a .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 3rem;
     align-items: end;
     justify-content: end;
     float: right;
-}
+} */
 
 .section-a h1 {
     font-size: 4rem;
@@ -201,4 +201,44 @@ ul {
     height: 100%;
     width: 100%;
     background-color: var(--overlay-color);
+}
+
+/* @media screen and (max-width:375px) {
+    .container {
+        display: grid;
+      grid-auto-flow: unset;
+        align-items: center;
+        justify-content: center;
+        width:100%;
+        margin: 0 auto;
+    }
+    .container h1 {
+        display: flex;
+        flex-direction: row;
+        font-size: 32px;
+        align-items: flex-end;
+      
+    }
+    .container p{
+        justify-content: center;
+        align-items: center;
+        margin-top: 300px;
+    }
+} */
+
+.container{
+     top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.container h1{
+    font-size: 46px;
+}
+
+.container p {
+font-size: 22px;
+font-weight:bolder;
 }
