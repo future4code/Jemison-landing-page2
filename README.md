@@ -1,1 +1,2 @@
-# landing-page-template
+Ladding Page
+Falta apenas uma parte da responsividade
