@@ -93,17 +93,9 @@ ul {
     list-style: none;
 }
 
-
-/* .container img {
-    display: inline;
-    width: 10%;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-} */
-
 .container {
-    max-width: 1100px;
+    min-width: 376px;
+    max-width: 1200px;
     margin: auto;
     overflow: hidden;
     padding: 0 2rem;
@@ -130,7 +122,6 @@ ul {
 
 .section-a p {
     margin: 1rem 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.1rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -201,4 +192,66 @@ ul {
     height: 100%;
     width: 100%;
     background-color: var(--overlay-color);
+}
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    body {
+        display: grid;
+
+    }
+
+    .section-a .container h1 {
+        display: grid;
+        grid-template-rows: 90px;
+        font-size: 1.8rem;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .section-a .container p {
+        display: grid;
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .section-a .container button {
+        display: inline;
+        font-size: 16px;
+        padding: 7px 20px;
+    }
+
+    .img-body-13429923 {
+        display: none;
+    }
+
+    .section-b {
+        height: 600px;
+    }
+    
+    .section-b h2 {
+        font-size: 1.9rem;
+        margin: 10px auto;
+    }
+    
+    .section-b h3 {
+        font-size: 1.3rem;
+        margin: 10px auto;
+    }
+    
+    .section-b p {
+        font-size: 1rem;
+        margin: 10px auto;
+        text-align: center;
+        width: 80%;
+    }
+
+    .texto-mobile {
+        margin-left: 90px;
+        width: 100%;
+    }
+
+    .btn {
+        padding: 7px 20px;
+    }
 }
