@@ -93,34 +93,26 @@ ul {
     list-style: none;
 }
 
-/* .container {
-    min-width: 1100px;
-    margin: auto;
-    overflow: hidden;
-    padding: 0 2rem;
-} */
-
-/* --------------------------------------------Test */
-/* .container {
+.container {
     min-width: 376px;
     max-width: 1200px;
     margin: auto;
     overflow: hidden;
     padding: 0 2rem;
-} */
-/* -------------------------------- */
+}
+
 .section-a {
     margin: 2rem 0;
 }
 
-/* .section-a .container {
+.section-a .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 3rem;
     align-items: end;
     justify-content: end;
     float: right;
-} */
+}
 
 .section-a h1 {
     font-size: 4rem;
@@ -130,7 +122,6 @@ ul {
 
 .section-a p {
     margin: 1rem 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.1rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -203,42 +194,64 @@ ul {
     background-color: var(--overlay-color);
 }
 
-/* @media screen and (max-width:375px) {
-    .container {
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    body {
         display: grid;
-      grid-auto-flow: unset;
-        align-items: center;
-        justify-content: center;
-        width:100%;
-        margin: 0 auto;
-    }
-    .container h1 {
-        display: flex;
-        flex-direction: row;
-        font-size: 32px;
-        align-items: flex-end;
-      
-    }
-    .container p{
-        justify-content: center;
-        align-items: center;
-        margin-top: 300px;
-    }
-} */
 
-.container{
-     top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-}
+    }
 
-.container h1{
-    font-size: 46px;
-}
+    .section-a .container h1 {
+        display: grid;
+        grid-template-rows: 90px;
+        font-size: 1.8rem;
+        text-align: center;
+        margin-bottom: 50px;
+    }
 
-.container p {
-font-size: 22px;
-font-weight:bolder;
+    .section-a .container p {
+        display: grid;
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .section-a .container button {
+        display: inline;
+        font-size: 16px;
+        padding: 7px 20px;
+    }
+
+    .img-body-13429923 {
+        display: none;
+    }
+
+    .section-b {
+        height: 600px;
+    }
+    
+    .section-b h2 {
+        font-size: 1.9rem;
+        margin: 10px auto;
+    }
+    
+    .section-b h3 {
+        font-size: 1.3rem;
+        margin: 10px auto;
+    }
+    
+    .section-b p {
+        font-size: 1rem;
+        margin: 10px auto;
+        text-align: center;
+        width: 80%;
+    }
+
+    .texto-mobile {
+        margin-left: 90px;
+        width: 100%;
+    }
+
+    .btn {
+        padding: 7px 20px;
+    }
 }
