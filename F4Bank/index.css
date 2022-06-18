@@ -66,28 +66,20 @@ footer{
     flex-direction: column;
 }
 
-.iconesredessociais{
+.div-sabamais{
+    margin-top: 15px;
+}
+#saibamais{
+    font-weight: 600;
+    margin-top: 200px;
+}
+.sociais img{
     width: 40px;
     height: 40px;
-    margin: 5px;
+    margin-right: 10px;
 }
 
-.lojaapp{
+.appdownload img{
     width: 150px;
     height: 50px;
-}
-
-#lojaappmargen{
-    margin-right: 60px;
-}
-
-.redessociais{
-    margin-bottom: 100px;
-}
-
-.endereço{
-    display: flex;
-    width: 100%;
-    margin: 0px 0px 10px 10px;
-    font-weight: bold ;
 }

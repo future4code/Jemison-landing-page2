@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 # F4bank Soluções financeiras.
 
@@ -28,7 +27,3 @@ Nesse projeto, temos uma ladding page de um banco fictício, aonde foram utiliza
 ## Link Surge
 
 -  holistic-loss.surge.sh
-=======
-Ladding Page
-Falta apenas uma parte da responsividade
->>>>>>> ace6b5968634dd47bb77274a9cff01e3c41371f5
