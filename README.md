@@ -20,12 +20,4 @@ Nesse projeto, temos uma ladding page de um banco fictício, aonde foram utiliza
  
 
 
-## Funcionalidades
-
-- Formulario
-- Multiplataforma
-
-## Link Surge
-
--  holistic-loss.surge.sh
 
