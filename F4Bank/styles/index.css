@@ -8,7 +8,6 @@ html {
     width: 100%;
     height: 100%;
 }
-            /* menu header */
 
 nav {
     display: flex;
@@ -26,11 +25,11 @@ nav {
 a {
     cursor: pointer;
 }
-.imgLogo {
+.logo {
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    margin-left: 2%;
+    margin-left: 120%;
     cursor: pointer;
 }
 
