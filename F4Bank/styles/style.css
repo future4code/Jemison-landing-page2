@@ -21,9 +21,10 @@ nav {
     box-shadow: 1px 1px 1px lightslategray;
 }
 
-.menuheader {
+.header-menu {
     display: flex;
     margin-right: 2%;
+    
 }
 
 a {
@@ -40,10 +41,12 @@ a {
 
 .menuburguer {
     margin-top: 3px;
+    display: none;
+    background-color: #f68247;
 }
 
-.botaoinicial {
-    border-radius: 33px 33px 33px 33px;
+.initial-button {
+    border-radius: 33px;
     justify-content: center;
     height: 40px;
     width: 200px;
@@ -55,11 +58,10 @@ a {
     background-image: linear-gradient(to left, rgb(212, 212, 2) 20%, yellow);
 }
 
-.botaoinicial:hover {
+.initial-button:hover {
     box-shadow: 1px 1px 1px 1px lightslategray;
     background-color: rgb(233, 233, 0);
 }
-
 
 /* Body */
 
@@ -197,14 +199,12 @@ ul {
 
     body {
         display: grid;
-
     }
 
     .section-a .container h1 {
         display: grid;
         grid-template-rows: 90px;
         font-size: 1.8rem;
-        text-align: center;
         margin-bottom: 50px;
     }
 
@@ -246,7 +246,7 @@ ul {
     }
 
     .texto-mobile {
-        margin-left: 90px;
+        margin-left: 80px;
         width: 100%;
     }
 
