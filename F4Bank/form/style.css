@@ -8,8 +8,8 @@
 }
 
 main {
+    display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 body {
@@ -23,10 +23,10 @@ body {
 
 .container {
     display: flex;
-    flex-direction: row;
-    width: 100%;
+    width: 80%;
     height: 80vh;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+
 }
 
 .form-image {
@@ -44,7 +44,7 @@ body {
 
 .form {
     display: flex;
-    width: 825px;
+    width: 50%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -78,26 +78,30 @@ body {
 }
 
 .input-group {
+    display: grid;
+    margin-top: 5rem;
+    justify-content: space-between;
+    padding: 1rem 0;
+    flex-wrap: wrap;
     font-size: 1.2rem;
-    height: 30vh;
-    margin: 50px 0 293px 0;
-    line-height: 10px;
 }
 
 .input-box {
     display: flex;
     flex-direction: column;
-    margin-bottom: 0.9rem;
-    font-weight: 600;
+    margin-bottom: 1.1rem;
 }
 
 .input-box input {
-    margin: 0.3rem 0;
+    margin: 0.6rem 0;
     padding: 0.8rem 1.2rem;
     border: none;
     border-radius: 10px;
     box-shadow: 1px 1px 6px #0000001c;
-    font-size: 1rem;
+}
+
+.input-box input:hover {
+    background-color: #eeeeee75;
 }
 
 button {
@@ -119,12 +123,10 @@ button:hover {
 }
 
 #checkbox {
-    line-height: 20px;
-    text-align: left;
-    margin: -16px 0 0 -2px;
+    margin: 0.5rem;
 }
 
-@media screen and (min-width:670px) {
+@media screen and (max-width:670px) {
     .form-image {
         display: none;
     }
