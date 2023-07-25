@@ -22,9 +22,11 @@ nav {
     display: flex;
     margin: 15px;
 }
+
 a {
     cursor: pointer;
 }
+
 .logo {
     border-radius: 50%;
     width: 100px;
@@ -40,7 +42,7 @@ a {
 .initial-button {
     border-radius: 33px;
     justify-content: center;
-    height:40px ;
+    height: 40px;
     width: 200px;
     font-weight: 750;
     text-decoration: none;
@@ -51,12 +53,13 @@ a {
 }
 
 .initial-button:hover {
-    box-shadow: 1px 1px 1px 1px lightslategray;;
+    box-shadow: 1px 1px 1px 1px lightslategray;
+    ;
     background-color: rgb(233, 233, 0);
 }
 
-footer{
-    display:flex;
+footer {
+    display: flex;
     justify-content: space-between;
     background-color: #FF914D;
     height: 200px;
@@ -65,24 +68,29 @@ footer{
     height: 32vh;
 }
 
-#address{
+#address {
     margin-bottom: 32px;
 }
 
-.div-saiba-mais{
+.div-saiba-mais {
     margin: 20px 0 26px 0;
 }
 
-#saiba-mais{
+#saiba-mais {
     font-weight: 600;
 }
-.sociais img{
+
+.sociais img {
     width: 40px;
     height: 40px;
     margin-right: 10px;
 }
 
-.download-stores{
+.download-stores {
     width: 150px;
     height: 50px;
 }
+  
+
+  
+

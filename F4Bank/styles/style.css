@@ -7,7 +7,7 @@ body,
 html {
     width: 100%;
     height: 100%;
-} */
+} 
 
 
 /* menu header */
@@ -107,9 +107,7 @@ ul {
 }
 
 .section-a .container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 3rem;
+    margin-top: 150px;
     align-items: end;
     justify-content: end;
     float: right;
@@ -130,6 +128,7 @@ ul {
 .section-a .img-body-13429923 {
     float: none;
     width: 30%;
+    margin-left: 10px;
 }
 
 .section-b {
@@ -200,19 +199,23 @@ ul {
     body {
         display: grid;
     }
-
+    header{
+        margin-bottom: -110px;
+    }
     .section-a .container h1 {
         display: grid;
         grid-template-rows: 90px;
         font-size: 2.3rem;
-        margin-bottom: 70px;
+        margin-bottom: 30px;
+        text-align: center;
+        width: 360px;
     }
 
     .section-a .container p {
-        display: grid;
-        font-size: 18px;
-        text-align: left;
-        font-weight: 600;
+        font-size: 20px;
+        text-align: justify;
+        width: 100vw;
+        /* margin-left: 30px; */
     }
 
     .section-a .container button {
@@ -250,8 +253,7 @@ ul {
     }
 
     .texto-mobile {
-        margin-left: 62px;
-        width: 100%;
+        width: 90%;
     }
 
     .btn {
