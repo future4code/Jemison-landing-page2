@@ -15,7 +15,7 @@
 
 ## Sobre o Projeto
 
-O F4bank foi o primeiro projeto realizado em grupo. Neste projeto eu fui responsável por fazer a parte do formulário. Mas,a finalidade desse projeto foi muito além de aplicar conhecimentos em HTML e CSS para construir uma landing page. Nos possibilitou trabalhar em grupo, superar os desafios de horários e trocar conhecimento, já que todos nós vinhamos estudando sozinhos antes de fazer o Bootcamp da Labenu.
+O F4bank foi o primeiro projeto realizado em grupo. Neste projeto eu fui responsável por fazer a parte do formulário. Mas, a finalidade desse projeto foi muito além de aplicar conhecimentos em HTML e CSS para construir uma landing page. Nos possibilitou trabalhar em grupo, superar os desafios de horários e trocar conhecimento, já que todos nós vinhamos estudando sozinhos antes de fazer o Bootcamp da Labenu.
 
 Durante a construção do projeto o maior desafio foi a questão da disponibilidade de horários para nos reunir. Porém, o superamos e utilizamos técnicas da metodologia ágil Scrum e utilizamos o Trello para mapearmos a nossa evolução.
 
