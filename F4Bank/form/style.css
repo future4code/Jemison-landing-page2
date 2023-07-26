@@ -136,14 +136,41 @@ button:hover {
     }
 }
 
-@media screen and (max-width: 600px) {
+/* Mobile */
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .container {
-        /* width: 90%;
-        height: auto; */
+      width: 100vw;
     }
 
+    label{
+        margin-left: -15px;
+        font-size: 1.3rem;
+    }
     .input-group {
-        /* font-size: 12px;
-        margin-bottom: -90px; */
+        margin-top: -1px;
+    }
+
+    .input-box input {
+        width: 110%;
+        margin-left: -15px;
+    }
+    .form {
+        height: 80vh;
+        margin-top: -50px;
+    }
+
+    #checkbox{
+       font-size: 1rem;
+       text-align: justify;
+       margin: 10px 0 0 0;
+    }
+
+    a{
+        word-spacing: -6px;
+        margin-right: 55px;
+    }
+    button{
+        margin: 7px 0 0 0;
+        width: 100%;
     }
 }
