@@ -21,11 +21,13 @@ Durante a construção do projeto o maior desafio foi a questão da disponibilid
 
 Além disso, também tivemos problemas de conflitos de códigos que terminou ficando pendente por conta da falta de experiência com merges e resolução de conflitos de código. No entanto, após concluir o bootcamp em abril de 2023, esse foi um dos projetos que decidi refatorar por se tratar de um problema real que pode acontecer durante a construção de projetos em equipe.
 
-Os problemas que solucionei foram
+Problemas que resolvi e ação tomada
 
 - ✅ Conflitos no versionamento de códigos.
 - ✅ Problemas de responsividade.
 - ✅ Excui arquivos desnecessários para o projeto e que estavam ocupando espaço útil.
+- ✅ Realizei pull request para os colegas aceitarem as alterações na branch original do projeto.
+  
 
 ## Stack Utilizada
 
