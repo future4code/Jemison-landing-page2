@@ -37,7 +37,7 @@ Além disso, também tivemos problemas de conflitos de códigos que terminou fic
   
 # Deploy
 
-O projeto original foi hospedado no Surge mas eu decidi hospedar esta versão na Vercel. Pessoalmente é que atualmente gosto de utilizar por seu layout, facilidade de uso, possibilidade de ver as atualizações feitas em 'tempo real' de produção e aparentemente o link não expira após 298 dias.
+O projeto original foi hospedado no Surge mas eu decidi hospedar esta versão na Vercel. Pessoalmente é o servidor que atualmente gosto de hospedar meus projetos. Possui um layout que me agrada, facil e rápido para configurar o deploy, possui possibilidade de ver as atualizações feitas em 'tempo real' de produção e aparentemente o link não expira após 298 dias.
 
 Projeto original - junh 18, 2022
 
