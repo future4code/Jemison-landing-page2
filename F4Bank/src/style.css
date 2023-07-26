@@ -135,7 +135,7 @@ ul {
 
 .section-b {
     position: relative;
-    background: url('/F4Bank/assets/img/11110.jpg') no-repeat bottom center/cover;
+    background: url('../assets/11110.jpg') no-repeat bottom center/cover;
     height: 800px;
     background-size: 100%;
     background-position: center;
