@@ -102,7 +102,17 @@ Mesmo resolvendo os problemas acima, decidi manter o layout do projeto o mais pr
 
 - [Rafael Ramos de Oliveira Lopes](https://github.com/rafix923)
 
- 
+ ##  🔠Índice
+<!--ts-->
+   * [Sobre o Projeto](#sobre-o-projeto)
+   * [Deploy](#deploy)
+   * [Stack Utilizada](#stack-utilizada)
+   * [Como rodar o projeto](#como-rodar-o-projeto)
+   * [Desktop Layout ](#desktop-layout)
+   * [Mobile Layout ](#mobile-layout)
+   * [Autores Originais do Projeto](#autores-originais-do-projeto)
+   * [Projeto atualizado por](#projeto-atualizado-por)
+<!--te-->
 
 
 
