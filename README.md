@@ -96,9 +96,9 @@ Mesmo resolvendo os problemas acima, decidi manter o layout do projeto o mais pr
 
 ## Autores Originais do Projeto
 
-- Allef André de Souza Moura
-- Diandrey Cristiano Ecker
-- Rafael Ramos de Oliveira Lopes
+- [Allef André de Souza Moura](https://github.com/allefsouza)
+- [Diandrey Cristiano Ecker](https://github.com/diandreyecker)
+- [Rafael Ramos de Oliveira Lopes](https://github.com/rafix923)
   
 ## Projeto atualizado por
 
