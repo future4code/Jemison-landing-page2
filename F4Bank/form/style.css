@@ -8,8 +8,8 @@
 }
 
 main {
+    display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 body {
@@ -23,15 +23,15 @@ body {
 
 .container {
     display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 80vh;
+    width: 70%;
+    height: 93vh;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+
 }
 
 .form-image {
     display: flex;
-    width: 50%;
+    width: 40%;
     justify-content: center;
     align-items: center;
     padding: 1rem;
@@ -39,23 +39,20 @@ body {
 
 .form-image img {
     border-radius: 50%;
-    width: 31rem;
+    width: 21rem;
 }
 
 .form {
     display: flex;
-    width: 825px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: #fff;
+    width: 77vw;
+    border-radius: 6px;
+    background-color: #ffdddd;
     padding: 3rem;
 }
 
 .form-header {
     display: flex;
     margin-bottom: 3rem;
-    justify-content: space-between;
 }
 
 .form-header h1::after {
@@ -74,34 +71,29 @@ body {
     margin-top: 15.8rem;
     margin-right: 5rem;
     font-size: 0.8rem;
-    justify-content: space-between;
 }
 
 .input-group {
-    font-size: 1.2rem;
-    height: 30vh;
-    margin: 50px 0 293px 0;
-    line-height: 10px;
-}
-
-.input-box {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 0.9rem;
-    font-weight: 600;
+    margin-top: 4rem;
+    padding: 1rem 0;
+    font-size: 1.5rem;
 }
 
 .input-box input {
-    margin: 0.3rem 0;
+    width: 90%;
+    margin: 0.6rem 0;
     padding: 0.8rem 1.2rem;
     border: none;
     border-radius: 10px;
     box-shadow: 1px 1px 6px #0000001c;
-    font-size: 1rem;
+}
+
+.input-box input:hover {
+    background-color: #eeeeee75;
 }
 
 button {
-    width: 50%;
+    width: 20%;
     border: none;
     padding: 0.62rem;
     border-radius: 5px;
@@ -110,8 +102,7 @@ button {
     font-size: 1rem;
     color: #1e1e1e;
     font-weight: 800px;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin: 20px 0 0 0;
 }
 
 button:hover {
@@ -119,23 +110,24 @@ button:hover {
 }
 
 #checkbox {
-    line-height: 20px;
-    text-align: left;
-    margin: -16px 0 0 -2px;
+    margin: 0.5rem;
 }
 
-@media screen and (min-width:670px) {
+/* In 1320px and below, the logo must disappear. */
+@media screen and (max-width:1325px) {
     .form-image {
         display: none;
     }
 
     .container {
-        width: 50%;
-        height: 90%;
+        width: 100vw;
+        height: 100vh;
     }
 
     .form {
-        width: 100%;
+        width: 100vw;
+        height: 100vh;
+        margin-top: -50px;
     }
 
     .title {
@@ -144,14 +136,41 @@ button:hover {
     }
 }
 
-@media screen and (max-width: 600px) {
+/* Mobile */
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .container {
-        width: 90%;
-        height: auto;
+      width: 100vw;
     }
 
+    label{
+        margin-left: -15px;
+        font-size: 1.3rem;
+    }
     .input-group {
-        font-size: 12px;
-        margin-bottom: -90px;
+        margin-top: -1px;
+    }
+
+    .input-box input {
+        width: 110%;
+        margin-left: -15px;
+    }
+    .form {
+        height: 80vh;
+        margin-top: -50px;
+    }
+
+    #checkbox{
+       font-size: 1rem;
+       text-align: justify;
+       margin: 10px 0 0 0;
+    }
+
+    a{
+        word-spacing: -6px;
+        margin-right: 55px;
+    }
+    button{
+        margin: 7px 0 0 0;
+        width: 100%;
     }
 }
