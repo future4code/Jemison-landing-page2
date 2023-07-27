@@ -8,7 +8,6 @@ html {
     width: 100%;
     height: 100%;
 }
-            /* menu header */
 
 nav {
     display: flex;
@@ -21,16 +20,18 @@ nav {
 
 .menuheader {
     display: flex;
-    margin-right: 2%;
+    margin: 15px;
 }
+
 a {
     cursor: pointer;
 }
-.imgLogo {
+
+.logo {
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    margin-left: 2%;
+    margin: 10px 0 0 50px;
     cursor: pointer;
 }
 
@@ -38,11 +39,10 @@ a {
     margin-top: 3px;
 }
 
-.botaoinicial {
-    /* background-color: yellow; */
-    border-radius: 33px 33px 33px 33px;
+.initial-button {
+    border-radius: 33px;
     justify-content: center;
-    height:40px ;
+    height: 40px;
     width: 200px;
     font-weight: 750;
     text-decoration: none;
@@ -52,34 +52,45 @@ a {
     background-image: linear-gradient(to left, rgb(212, 212, 2) 20%, yellow);
 }
 
-.botaoinicial:hover {
-    box-shadow: 1px 1px 1px 1px lightslategray;;
+.initial-button:hover {
+    box-shadow: 1px 1px 1px 1px lightslategray;
+    ;
     background-color: rgb(233, 233, 0);
 }
 
-footer{
-    display:flex;
+footer {
+    display: flex;
     justify-content: space-between;
     background-color: #FF914D;
     height: 200px;
     align-items: center;
     flex-direction: column;
+    height: 32vh;
 }
 
-.div-sabamais{
-    margin-top: 15px;
+#address {
+    margin-bottom: 32px;
 }
-#saibamais{
+
+.div-saiba-mais {
+    margin: 20px 0 26px 0;
+}
+
+#saiba-mais {
     font-weight: 600;
-    margin-top: 200px;
 }
-.sociais img{
+
+.sociais img {
     width: 40px;
     height: 40px;
     margin-right: 10px;
 }
 
-.appdownload img{
+.download-stores {
     width: 150px;
     height: 50px;
 }
+  
+
+  
+

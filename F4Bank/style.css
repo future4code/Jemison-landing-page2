@@ -7,23 +7,26 @@ body,
 html {
     width: 100%;
     height: 100%;
-} */
+} 
 
 
 /* menu header */
 
 nav {
     display: flex;
+    position: relative;
     justify-content: space-between;
     background-color: #f2f2f2;
     width: 100%;
     align-items: center;
     box-shadow: 1px 1px 1px lightslategray;
+    margin-bottom: -100px;
 }
 
-.menuheader {
+.header-menu {
     display: flex;
     margin-right: 2%;
+    
 }
 
 a {
@@ -40,10 +43,12 @@ a {
 
 .menuburguer {
     margin-top: 3px;
+    display: none;
+    background-color: #f68247;
 }
 
-.botaoinicial {
-    border-radius: 33px 33px 33px 33px;
+.initial-button {
+    border-radius: 33px;
     justify-content: center;
     height: 40px;
     width: 200px;
@@ -55,11 +60,10 @@ a {
     background-image: linear-gradient(to left, rgb(212, 212, 2) 20%, yellow);
 }
 
-.botaoinicial:hover {
+.initial-button:hover {
     box-shadow: 1px 1px 1px 1px lightslategray;
     background-color: rgb(233, 233, 0);
 }
-
 
 /* Body */
 
@@ -80,7 +84,7 @@ h1,
 h2,
 h3,
 h4 {
-    line-height: 1.3;
+    line-height: 1;
 }
 
 a {
@@ -105,9 +109,7 @@ ul {
 }
 
 .section-a .container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 3rem;
+    margin-top: 150px;
     align-items: end;
     justify-content: end;
     float: right;
@@ -128,11 +130,12 @@ ul {
 .section-a .img-body-13429923 {
     float: none;
     width: 30%;
+    margin: 10px 0 0 10px;
 }
 
 .section-b {
     position: relative;
-    background: url('./imagem/img-body/11110.jpg') no-repeat bottom center/cover;
+    background: url('./assets/11110.jpg') no-repeat bottom center/cover;
     height: 800px;
     background-size: 100%;
     background-position: center;
@@ -197,27 +200,31 @@ ul {
 
     body {
         display: grid;
-
     }
-
+    header{
+        margin-bottom: -110px;
+    }
     .section-a .container h1 {
         display: grid;
         grid-template-rows: 90px;
-        font-size: 1.8rem;
+        font-size: 2.3rem;
+        margin-bottom: 30px;
         text-align: center;
-        margin-bottom: 50px;
+        width: 360px;
     }
 
     .section-a .container p {
-        display: grid;
-        font-size: 16px;
-        text-align: left;
+        font-size: 20px;
+        text-align: justify;
+        width: 100vw;
     }
 
     .section-a .container button {
         display: inline;
-        font-size: 16px;
-        padding: 7px 20px;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 10px 20px;
+        margin: 0 10px 20px -1px;
     }
 
     .img-body-13429923 {
@@ -225,32 +232,39 @@ ul {
     }
 
     .section-b {
-        height: 600px;
+        height: 550px;
     }
     
     .section-b h2 {
-        font-size: 1.9rem;
-        margin: 10px auto;
+        font-size: 2.4rem;
+        margin-top: -90px;
     }
     
     .section-b h3 {
-        font-size: 1.3rem;
+        font-size: 1.6rem;
         margin: 10px auto;
     }
     
     .section-b p {
-        font-size: 1rem;
+        font-size: 1.4rem;
         margin: 10px auto;
         text-align: center;
+        font-weight: 300;
         width: 80%;
     }
 
     .texto-mobile {
-        margin-left: 90px;
-        width: 100%;
+        width: 90%;
     }
 
     .btn {
-        padding: 7px 20px;
+        display: inline;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 10px 20px;
+    }
+
+    #address p{
+      font-weight: 600;
     }
  } 
