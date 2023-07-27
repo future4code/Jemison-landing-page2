@@ -1,7 +1,7 @@
 # F4bank Landing Page.
 ![Screenshot_1](https://user-images.githubusercontent.com/99361183/201529092-f4aba941-04f3-4fbc-8323-53242c264396.png)
 
-##  🔠Conteúdos
+##  🔠Conteúdo
 <!--ts-->
    * [Sobre o Projeto](#sobre-o-projeto)
    * [Deploy](#deploy)
